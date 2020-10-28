@@ -1,0 +1,45 @@
+.ant-upload {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.insurance-error {
+  border: 2px solid red !important;
+}
+
+.policy-delete-btn {
+  visibility: hidden;
+  transition: all 200ms;
+}
+
+.custom-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  transition: all 200ms;
+}
+
+.custom-header:hover .policy-delete-btn {
+  visibility: visible;
+}
+
+.insurance-platform-column {
+  min-width: 300px;
+  width: 25%;
+}
+
+.ant-table-tbody > tr.ant-table-row-level-0:hover > td {
+  background-color: #fff !important;
+}
+
+.insurance-add-platform-column {
+  max-width: 50px;
+}
+
+.ant-table-cell.insurance-add-platform-column .ant-table-cell-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
